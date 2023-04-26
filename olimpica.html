@@ -11,30 +11,32 @@
 
 <body>
     <div class="main">
-            <div class="cuadro">
-                <div class="title">
-                    <h2>¿En qué ciudad estás?</h2>
-                </div>
+            <div class="modal">
                 <div class="texto">
-                    <p>Recuerda que nuestros precios y cobertura de productos de supermercado varían según tu ubicación</p>
+                    <h2>¿En qué ciudad estás?</h2>
+                    <p>Recuerda que nuestros precios y cobertura de productos de supermercado varían según tu ubicación.</p>
                     <br>
                     <p>Para brindarte una mejor experiencia selecciona tu departamento y ciudad</p>
                     <br>
-                    <input placeholder="Dpto" list="Departamentos">
-                    <datalist id="Departamentos">
+                    <div class="input">
+                        <input placeholder="Departamento" list="Departamentos">
+                        <datalist id="Departamentos">
                         <option value="Atlántico"></option>
                         <option value="B"></option>
                         <option value="C"></option>
                         <option value="D"></option>
-                    </datalist>
-
-                    <input placeholder="Ciud" list="Ciudades">
-                    <datalist id="Ciudades">
+                        </datalist>
+                        <input placeholder="Ciudades" list="Ciudades">
+                        <datalist id="Ciudades">
                         <option value="Barranquilla"></option>
                         <option value="Baranoa"></option>
                         <option value="Cartagena"></option>
                         <option value=""></option>
-                    </datalist>
+                        </datalist>
+                    </div>
+                </div>
+                <div class="boton">
+                    <button>ELEGIR</button>
                 </div>
             </div>
         </div>
